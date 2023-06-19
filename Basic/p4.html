@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css basic</title>
+    <style>
+        .combination{
+            background-color: gray;
+            color: white;
+            padding: 20px;
+        }
+        .combination + h5{
+            color: red;
+        }
+        .combination +h5+h5{
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h1>There are 4 diferent in css..!</h1>
+    </center>
+    <hr>
+    <ol>
+        <li>Discendent Selector (using space)</li>
+        <li>Child Selector(using > Symbol)</li>
+        <li>Adjacent Sibling Selector (using + symbol)</li>
+        <i> General sibling selector (using ~ symbol)</i>
+    </ol>
+    <hr>
+    <h1>Adjacent Sibling Selector (using + symbol) Example..!</h1>
+    <hr>
+
+    <section class="combination">
+        <h3>First H3 tag..!(Child Element)</h3>
+        <p>First paregraph..!(Child Element)</p>
+
+        <h3>seond H3 tag..!(Child Element)</h3>
+        <p>seond paregraph..!(Child Element)</p>
+
+        <h3>third H3 tag..!(Child Element)</h3>
+        <p>third paregraph..!(Child Element)</p>
+        <div>
+        <h3>fourth H3 tag..!(GrandChild Element)</h3>
+        <p>fourth paregraph..!(GrandChild Element)</p>
+        </div>
+        <h3>fifth H3 tag..!(Child Element)</h3>
+        <p>fifth paregraph..!(Child Element)</p>
+    </section>
+
+    <h5>THIS IS FIRST H5</h5>
+    <h5>THIS IS SECOND H5</h5>
+    <h5>THIS IS THIRD H5</h5>
+    <h5>THIS IS FOURTH H5</h5>
+</body>
+</html>

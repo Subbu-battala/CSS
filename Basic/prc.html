@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+           .navbar{
+            background-color: grey;
+           }
+           .navbar>ul{
+            list-style: decimal;
+            padding: 0%;
+            margin: 0%;
+            float: right;
+
+           }
+           .navbar>ul>li{
+            display: inline-block;
+            /* float: right; */
+            padding: 30px;
+           }
+
+           .navbar>ul>li>a{
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            display: inline;
+           }
+
+           .navbar>ul>li:hover{
+            background-color: white;
+            /* padding: 50px; */
+           }
+
+           .navbar>ul>li:hover > a{
+            color: blue;
+           }
+
+           .navbar>img{
+            height: 60px;
+           }
+
+           .banner{
+            background-image: url(Assets/images/backkk.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 600px;
+            text-align: center;
+            font-size: 35px;
+            padding: 0%;
+            /* top: 10px; */
+            
+
+           }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="Assets/images/eegle.jpg" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Abouts us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+        <section class="banner">
+            <h1>welocome to CSS</h1>
+            <h4>Web Developer</h4>
+        </section>
+
+
+    </body>
+</html>

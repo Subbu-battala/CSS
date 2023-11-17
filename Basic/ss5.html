@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .navBar{
+            background-color: grey;
+        }
+        .navBar>ul{
+           float: right;
+           list-style: decimal;
+           padding: 0%;
+           margin: 0%;
+        }
+        .navBar>ul>li{
+            display: inline-block;
+            text-decoration: none;
+            padding: 20px;
+        }
+        .navBar>ul>li:hover{
+            background-color: black;
+        }
+        .navBar>ul>li>a{
+            text-decoration: none;
+            color: #ffff;
+        }
+        .navBar>ul>li:hover a{
+            color: red;
+        }
+        .navBar>img{
+            height: 58px;
+        }
+
+        .banner{
+            color: #ffff;
+            background-color: black;
+            background-image: url(./Assets/images/backkk.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 585px;
+            text-align: center;
+            top: 20px;
+            padding: 30px;
+        }
+        .banner>h1{
+            font-size: 50px;
+            top: 20px;
+           
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="navBar">
+        <img src="./Assets/images/eegle.jpg" alt="">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <h1>This Subbarayudu</h1>
+        <p>Mern Deveeloper</p>
+    </div>
+
+
+</body>
+</html>
